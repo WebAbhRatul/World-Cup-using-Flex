@@ -243,3 +243,19 @@ form > .btn{
 .insideAboutUs{
     width: 50%;
 }
+
+/* Footer Section  */
+.footerSection{
+    text-align: center;
+    font-size: 30px;
+}
+
+.footerSection img{
+    width: 15%;
+}
+.footerSection .fab{
+    margin-right: 10px;
+}
+.footerSection > p{
+    font-size: small;
+}
