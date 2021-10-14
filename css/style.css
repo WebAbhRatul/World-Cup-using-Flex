@@ -88,18 +88,19 @@ nav{
     display: flex;
     overflow: hidden;
     align-items: center;
+    justify-content: space-between;
     
 }
 
 .halfWidth{
-    width: 50%;
+    width: 40%;
 }
 .layout-img img{
-    width: 80%;
+    width: 100%;
     transition: transform 1s ease-in-out;
 }
 .layout:hover .layout-img img{
-    transform: scale(1.5);
+    transform: scale(1.3);
     
 }
 
@@ -268,9 +269,48 @@ form > .btn{
 /*=============================== 
          Medea Quires  
 =================================*/
-
+@media (max-width: 991.98px) { 
+    nav{
+        align-items: unset;
+        flex-direction: column;
+    }
+    p{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 80px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    .highlight{
+        justify-content: space-around;
+    }
+    .highlightImg,
+    .highlightInfo{
+       padding: 0px;
+    }
+    .playerCard{
+        width: 45%;
+    }
+    form{
+        width: 60%;
+    }
+    .footerSection img {
+       width: 30%;
+   }
+   .btn p{
+       text-align: right;
+   }
+   .footerSection{
+       font-size: 55px;
+   }
+   .footerSection > p{
+       font-size: 20px;
+   }
+   }
   /* Small devices (landscape phones,  under 576px)  */
-@media screen and (max-width: 576px) { 
+@media screen and (max-width: 575.98px) { 
     .container{
         width: 100%;
         padding: 0;
@@ -282,6 +322,7 @@ form > .btn{
         margin: 20px 0;
         flex-direction: column;
     }
+    
     .btn a{
         font-size: .7em;
         padding: 5px;
@@ -337,10 +378,10 @@ form > .btn{
         padding:0 5%;
     }
     h3{
-        font-size: 18px;
+        font-size: 20px;
     }
     p{
-        font-size: 12px;
+        font-size: 18px;
     }
     .topPlayerHeading {
         margin: 15px;
@@ -380,10 +421,73 @@ form > .btn{
         font-size: 15px;
     }
     input[type=text],
-input[type=email],
-input[type=tel],
-input[type=password]{
+    input[type=email],
+    input[type=tel],
+    input[type=password]{
     font-size: 12px;
     
 }
  }
+
+ @media (max-width: 767.98px) { 
+     header{
+         padding: 5%;
+     }
+    nav{
+        flex-direction: column;
+    }
+    .navbar ul{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar ul li {
+        margin-bottom: 20px;
+    }
+    .navbar ul li a{
+        font-size: 30px;
+    }
+    .btn a{
+        padding: 15px;
+    }
+    .btn p,
+    .btn a{
+        font-size: 20px;
+    }
+    .layout-info .btn{
+        text-align: right;
+    }
+    .layout-img{
+        display: none;
+    }
+    .highlight{
+        flex-direction: column;
+    }
+    .highlightImg{
+        padding: 0;
+    }
+    .halfWidth,
+    .playerCard,
+    form,
+    .insideAboutUs{
+        width: 100%;
+    }
+    
+    .signUpSection{
+        padding: 5%;
+    }
+    
+   
+    .footerSection{
+        font-size: 50px;
+    }
+    .footerSection img{
+        width: 30%;
+    }
+    .footerSection p{
+        font-size: 15px;
+    }
+   
+ }
+
+ 
