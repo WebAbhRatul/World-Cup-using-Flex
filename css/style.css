@@ -309,6 +309,69 @@ form > .btn{
        font-size: 20px;
    }
    }
+
+
+
+   @media (max-width: 767.98px) { 
+    header{
+        padding: 5%;
+    }
+   nav{
+       flex-direction: column;
+   }
+   .navbar ul{
+       flex-wrap: wrap;
+       flex-direction: column;
+       align-items: center;
+   }
+   .navbar ul li {
+       margin-bottom: 20px;
+   }
+   .navbar ul li a{
+       font-size: 30px;
+   }
+   .btn a{
+       padding: 15px;
+   }
+   .btn p,
+   .btn a{
+       font-size: 20px;
+   }
+   .layout-info .btn{
+       text-align: right;
+   }
+   .layout-img{
+       display: none;
+   }
+   .highlight{
+       flex-direction: column;
+   }
+   .highlightImg{
+       padding: 0;
+   }
+   .halfWidth,
+   .playerCard,
+   form,
+   .insideAboutUs{
+       width: 100%;
+   }
+   
+   .signUpSection{
+       padding: 5%;
+   }
+   
+  
+   .footerSection{
+       font-size: 50px;
+   }
+   .footerSection img{
+       width: 30%;
+   }
+   .footerSection p{
+       font-size: 15px;
+   }
+  
+}
   /* Small devices (landscape phones,  under 576px)  */
 @media screen and (max-width: 575.98px) { 
     .container{
@@ -429,65 +492,6 @@ form > .btn{
 }
  }
 
- @media (max-width: 767.98px) { 
-     header{
-         padding: 5%;
-     }
-    nav{
-        flex-direction: column;
-    }
-    .navbar ul{
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-    }
-    .navbar ul li {
-        margin-bottom: 20px;
-    }
-    .navbar ul li a{
-        font-size: 30px;
-    }
-    .btn a{
-        padding: 15px;
-    }
-    .btn p,
-    .btn a{
-        font-size: 20px;
-    }
-    .layout-info .btn{
-        text-align: right;
-    }
-    .layout-img{
-        display: none;
-    }
-    .highlight{
-        flex-direction: column;
-    }
-    .highlightImg{
-        padding: 0;
-    }
-    .halfWidth,
-    .playerCard,
-    form,
-    .insideAboutUs{
-        width: 100%;
-    }
-    
-    .signUpSection{
-        padding: 5%;
-    }
-    
-   
-    .footerSection{
-        font-size: 50px;
-    }
-    .footerSection img{
-        width: 30%;
-    }
-    .footerSection p{
-        font-size: 15px;
-    }
-   
- }
+ 
 
  
